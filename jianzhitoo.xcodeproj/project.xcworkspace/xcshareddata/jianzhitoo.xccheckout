@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>652FB765-E3DE-4974-BC9A-1C689CA73715</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jianzhitoo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52a88f37-b3ca-174a-b763-b4c67b43225a++5868</key>
+		<string>https://svn.nuoyayun.net/svn/guangyang/Projects/Jianzhitoo/IOS/jianzhitooV2</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jianzhitoo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52a88f37-b3ca-174a-b763-b4c67b43225a++5868</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>52a88f37-b3ca-174a-b763-b4c67b43225a++5868</key>
+		<string>https://svn.nuoyayun.net/svn/guangyang</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.nuoyayun.net/svn/guangyang/Projects/Jianzhitoo/IOS/jianzhitooV2/jianzhitoo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52a88f37-b3ca-174a-b763-b4c67b43225a++5868</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52a88f37-b3ca-174a-b763-b4c67b43225a++5868</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jianzhitooV2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

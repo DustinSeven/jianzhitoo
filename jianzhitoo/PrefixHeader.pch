@@ -1,0 +1,111 @@
+//
+//  PrefixHeader.pch
+//  jianzhitoo
+//
+//  Created by 李明伟 on 11/15/14.
+//  Copyright (c) 2014 Lee Mingwei. All rights reserved.
+//
+
+#ifndef jianzhitoo_PrefixHeader_pch
+#define jianzhitoo_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ZGUtility.h"
+#import "ZGHeadView.h"
+#import "ZGBaseEntity.h"
+#import "ZGHttpClient.h"
+#import "ZGActionSheet.h"
+#endif
+
+#define HeadViewHeight (IS_IPHONE4?64:(IS_IPHONE5?64:64))
+#define HeadViewBackground [UIColor colorWithRed:58.0f / 255.0f green:148.0f / 255.0f blue:230.0f / 255.0f alpha:1.0f]
+
+#define NavLeftBtnHeight 50
+#define NavLeftBtnWidth 50
+
+#define LEFT_DRAWER_WIDTH 200
+
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define IS_PHONE [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone
+#define IS_IPHONE4 ((SCREEN_HEIGHT == 480 && SCREEN_WIDTH == 320)? YES:NO)
+#define IS_IPHONE5 ((SCREEN_HEIGHT == 568 && SCREEN_WIDTH == 320)? YES:NO)
+#define IS_IPHONE6 ((SCREEN_HEIGHT == 667 && SCREEN_WIDTH == 375)? YES:NO)
+
+#define APP_FONT_COLOR_NORMAL [UIColor colorWithRed:68.0f / 255.0f green:68.0f / 255.0f blue:68.0f / 255.0f alpha:1.0f]
+#define APP_FONT_COLOR_THIN [UIColor colorWithRed:108.0f / 255.0f green:108.0f / 255.0f blue:108.0f / 255.0f alpha:1.0f]
+#define APP_FONT_SIZE_NORMAL 15
+
+#define CELL_SELECTED_COLOR [UIColor colorWithRed:246.0f / 255.0f green:246.0f / 255.0f blue:246.0f / 255.0f alpha:1.0f]
+#define VIEW_BACKGROUND [UIColor colorWithRed:240.0f / 255.0f green:240.0f / 255.0f blue:240.0f / 255.0f alpha:1.0f]
+
+
+#define APP_BASE_URL @"http://120.25.211.31:8080"
+//#define APP_BASE_URL @"http://appapi.jianzhitoo.com"
+
+#define LOGIN_URL @"/parttimejobAPI/login"
+#define UPDATE_APP_INFO_URL @"/api/jztv1/GetAppUsers"
+
+#define GET_UPDATE_INFO_URL @"/api/jztv1/AppVersion"
+
+#define REGISTER_URL @"/parttimejobAPI/register"
+#define VERI_CODE_URL @"/api/jztv1/GetRegisterCode"
+#define GET_USER_INFO_URL @"/parttimejobAPI/getuserinfo"
+#define GET_JOB_DETAIL_URL @"/parttimejobAPI/getjobdetail"
+#define GET_ALL_PROVINCE_URL @"/parttimejobAPI/getprovince"
+#define GET_CITY_URL @"/parttimejobAPI/getcity"
+#define GET_AREA_URL @"/parttimejobAPI/getarea"
+#define UPDATE_USER_INFO_URL @"/parttimejobAPI/updateuserinfo"
+#define GET_COLLEGE_URL @"/parttimejobAPI/getallcollege"
+#define GET_DEPARTMENT_URL @"/parttimejobAPI/getallschool"
+#define GET_ALL_JOB_TYPE_URL @"/parttimejobAPI/getalljobtype"
+#define UPLOAD_USER_IMG_URL @"/parttimejobAPI/uploaduserimg"
+
+#define GET_MY_REGISTRATION_URL @"/parttimejobAPI/getmyregistration"
+#define MY_REGISTRATION_DETAIL_URL @"/parttimejobAPI/getmyregistrationdetail"
+
+#define GET_JOB_URL @"/parttimejobAPI/getjoblist"
+#define GET_SCHOOLMATE_URL @"/parttimejobAPI/getschoolmate"
+
+#define UPDATE_PASSWORD_URL @"/parttimejobAPI/changepassword"
+
+#define WITHDRAWAL_TO_ALIPAY_URL @"/api/jztv1/WithdrawAlipay"
+#define WITHDRAWAL_TO_BANK_URL @"/api/jztv1/WithdrawBank"
+
+#define GET_SHORT_TERM_DATE_URL @"/parttimejobAPI/getshortdate"
+#define REGISTRATION_SHORT_URL @"/parttimejobAPI/registrationshort"
+#define GET_LONG_TERM_DATE_URL @"/parttimejobAPI/getlongenroll"
+#define REGISTRATION_LONG_URL @"/parttimejobAPI/registrationlong"
+
+#define GET_SETING_URL @"/parttimejobAPI/getusersetting"
+#define SET_URL @"/parttimejobAPI/setusersetting"
+
+#define GET_TOTAL_MONEY_URL @"/api/jztv1/GetMoneyAmount"
+#define GET_DEALING_MONEY_URL @"/api/jztv1/GetFreezeMoney"
+#define GET_ENABLE_MONEY_URL @"/api/jztv1/GetEnabledMoney"
+
+#define SIGN_IN_URL @"/api/jztv1/CheckInPartJob"
+
+#define GET_MONEY_DETAIL_URL @"/api/jztv1/GetCapitalList"
+
+#define ADVICE_URL @"/parttimejobAPI/advice"
+
+#define GET_ALL_BANK_URL @"/api/jztv1/GetBankList"
+
+#define GET_USER_IMG_URL APP_BASE_URL
+
+#define USERDEFAULTS_GUIDE_KEY @"guide_key"
+#define USER_DEVICE_INFO_KEY @"device_key"
+#define USERDEFAULTS_USER_INFO_KEY @"user_info_entity"
+
+#define TMP_USER_IMG_NAME_WITH_TYPE @"tmp_user_img.png"
+#define TMP_USER_IMG_NAME @"tmp_user_img"
+
+#define MAIN_PAGE_JOB_PAGE_SIZE 10
+
+#endif
