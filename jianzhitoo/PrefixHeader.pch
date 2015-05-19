@@ -45,8 +45,8 @@
 #define VIEW_BACKGROUND [UIColor colorWithRed:240.0f / 255.0f green:240.0f / 255.0f blue:240.0f / 255.0f alpha:1.0f]
 
 
-#define APP_BASE_URL @"http://120.25.211.31:8080"
-//#define APP_BASE_URL @"http://appapi.jianzhitoo.com"
+//#define APP_BASE_URL @"http://120.25.211.31:8080"
+#define APP_BASE_URL @"http://localhost:8080"
 
 #define LOGIN_URL @"/parttimejobAPI/login"
 #define UPDATE_APP_INFO_URL @"/api/jztv1/GetAppUsers"

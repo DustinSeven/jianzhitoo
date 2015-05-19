@@ -158,7 +158,7 @@
             if(jobDetailEntity.company)
                 company = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"招聘单位：%@",jobDetailEntity.company]];
             if(jobDetailEntity.money)
-                money = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%0.2f/天",jobDetailEntity.money]];
+                money = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%0.2f元/%@",jobDetailEntity.money,jobDetailEntity.payUnit]];
             NSRange range1 = NSMakeRange(0, money.string.length - 2);
             NSRange range2 = NSMakeRange(money.string.length - 2, 2);
             [money addAttribute:NSForegroundColorAttributeName value:JobDetailMoneyColor range:range1];

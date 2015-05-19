@@ -435,6 +435,12 @@
 		9B7C017B1A0A32410095E6B8 /* user_center_my_money_detail_btn_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C01791A0A32410095E6B8 /* user_center_my_money_detail_btn_pressed@2x.png */; };
 		9B7C017E1A0A33150095E6B8 /* user_center_my_advice_btn_icon_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C017C1A0A33150095E6B8 /* user_center_my_advice_btn_icon_normal@2x.png */; };
 		9B7C017F1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C017D1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png */; };
+		9BA9818C1B0AE8A30021E47E /* logo_120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981811B0AE8A30021E47E /* logo_120@2x.png */; };
+		9BA9818D1B0AE8A30021E47E /* logo_180@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981821B0AE8A30021E47E /* logo_180@3x.png */; };
+		9BA9818E1B0AE8A30021E47E /* logo_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981831B0AE8A30021E47E /* logo_58@2x.png */; };
+		9BA9818F1B0AE8A30021E47E /* logo_80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981841B0AE8A30021E47E /* logo_80@2x.png */; };
+		9BA981901B0AE8A30021E47E /* logo_87@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981851B0AE8A30021E47E /* logo_87@3x.png */; };
+		9BA981931B0AE90F0021E47E /* logo_120@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981921B0AE90F0021E47E /* logo_120@3x.png */; };
 		9BB8E9FE1A08CA1000470FF7 /* ZGJobsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8E9FD1A08CA1000470FF7 /* ZGJobsListCell.m */; };
 		9BBDC1C11AEA9CBC0036A730 /* left_menu_session_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBDC1C01AEA9CBC0036A730 /* left_menu_session_icon@2x.png */; };
 		9BBDC1C31AEA9D930036A730 /* left_menu_setting_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBDC1C21AEA9D930036A730 /* left_menu_setting_icon@2x.png */; };
@@ -1211,6 +1217,12 @@
 		9B7C01791A0A32410095E6B8 /* user_center_my_money_detail_btn_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_my_money_detail_btn_pressed@2x.png"; sourceTree = "<group>"; };
 		9B7C017C1A0A33150095E6B8 /* user_center_my_advice_btn_icon_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_my_advice_btn_icon_normal@2x.png"; sourceTree = "<group>"; };
 		9B7C017D1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_my_advice_btn_icon_pressed@2x.png"; sourceTree = "<group>"; };
+		9BA981811B0AE8A30021E47E /* logo_120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_120@2x.png"; sourceTree = "<group>"; };
+		9BA981821B0AE8A30021E47E /* logo_180@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_180@3x.png"; sourceTree = "<group>"; };
+		9BA981831B0AE8A30021E47E /* logo_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_58@2x.png"; sourceTree = "<group>"; };
+		9BA981841B0AE8A30021E47E /* logo_80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_80@2x.png"; sourceTree = "<group>"; };
+		9BA981851B0AE8A30021E47E /* logo_87@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_87@3x.png"; sourceTree = "<group>"; };
+		9BA981921B0AE90F0021E47E /* logo_120@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_120@3x.png"; sourceTree = "<group>"; };
 		9BB8E9FC1A08CA1000470FF7 /* ZGJobsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGJobsListCell.h; sourceTree = "<group>"; };
 		9BB8E9FD1A08CA1000470FF7 /* ZGJobsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGJobsListCell.m; sourceTree = "<group>"; };
 		9BBDC1C01AEA9CBC0036A730 /* left_menu_session_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_menu_session_icon@2x.png"; sourceTree = "<group>"; };
@@ -2682,6 +2694,7 @@
 		9B6D1EB01A0864F000BCE590 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9BA9817A1B0AE8A30021E47E /* logo */,
 				9BD48B7B1AE55B02002AB7E0 /* Left menu */,
 				4FBE79011A63D665009BB177 /* chat_recive_nor@2x.png */,
 				4FBE78FF1A63D65E009BB177 /* chat_recive_press_pic@2x.png */,
@@ -2774,6 +2787,19 @@
 				9B7C015B1A0A1AAB0095E6B8 /* user_center_vertical_line@2x.png */,
 			);
 			path = "User center";
+			sourceTree = "<group>";
+		};
+		9BA9817A1B0AE8A30021E47E /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				9BA981921B0AE90F0021E47E /* logo_120@3x.png */,
+				9BA981811B0AE8A30021E47E /* logo_120@2x.png */,
+				9BA981821B0AE8A30021E47E /* logo_180@3x.png */,
+				9BA981831B0AE8A30021E47E /* logo_58@2x.png */,
+				9BA981841B0AE8A30021E47E /* logo_80@2x.png */,
+				9BA981851B0AE8A30021E47E /* logo_87@3x.png */,
+			);
+			path = logo;
 			sourceTree = "<group>";
 		};
 		9BD48B7B1AE55B02002AB7E0 /* Left menu */ = {
@@ -2907,6 +2933,7 @@
 				4FB1EEC61A0DDB5E00CE6E07 /* job_type_icon_question@2x.png in Resources */,
 				9B61F9491A0B101600D2BEBE /* main_page_search_btn_icon_normal@2x.png in Resources */,
 				4F65A5E31A3AF481007678E9 /* job_detail_share_icon@2x.png in Resources */,
+				9BA9818F1B0AE8A30021E47E /* logo_80@2x.png in Resources */,
 				4F6240D31A2832F500C96CAE /* widrawal_bank_card_icon@2x.png in Resources */,
 				4F65A5D31A3ADF7C007678E9 /* logo_108X108@2x.png in Resources */,
 				4FE1EE071A651E2B00C771BE /* zbar-back.png in Resources */,
@@ -2943,6 +2970,7 @@
 				9B7C01671A0A22860095E6B8 /* user_center_btn_line_frame@2x.png in Resources */,
 				4F10FA691A2EDC83001A35BD /* user_img_default_90px@2x.png in Resources */,
 				9B61F9431A0AFD6700D2BEBE /* main_page_filter_btn_icon_down@2x.png in Resources */,
+				9BA981931B0AE90F0021E47E /* logo_120@3x.png in Resources */,
 				4F47516D1A303A6B0048AB31 /* no_record_img@2x.png in Resources */,
 				4F4023051A36C661003D7F8C /* job_default_img_small@2x.png in Resources */,
 				4F4023091A36CDA7003D7F8C /* QR_scan_line_img@2x.png in Resources */,
@@ -2972,6 +3000,7 @@
 				4F84AFF31A2487BE0028AA37 /* schoolmate_call_btn_icon_normal@2x.png in Resources */,
 				4F62DD871A2D83AA00A0C500 /* back_btn_icon_normal@2x.png in Resources */,
 				4F75C5B91A0CA69D0022A534 /* job_detail_deadline_icon@2x.png in Resources */,
+				9BA9818C1B0AE8A30021E47E /* logo_120@2x.png in Resources */,
 				9B5F4E551A0A86540029726C /* main_page_new_job_img@2x.png in Resources */,
 				9B7C01761A0A2EB30095E6B8 /* user_center_my_setting_btn_icon_normal@2x.png in Resources */,
 				9B7C01401A09BFD70095E6B8 /* MBProgressHUD.bundle in Resources */,
@@ -2980,6 +3009,7 @@
 				4F9448A61A35A7BC009F99DF /* share_btn_session_icon_normal@2x.png in Resources */,
 				9BBDC1C31AEA9D930036A730 /* left_menu_setting_icon@2x.png in Resources */,
 				4F4751681A3035C00048AB31 /* delete_btn_icon_normal@2x.png in Resources */,
+				9BA9818D1B0AE8A30021E47E /* logo_180@3x.png in Resources */,
 				4F75C5C31A0CA8D10022A534 /* job_detail_map_btn_icon@2x.png in Resources */,
 				4F75C5B71A0CA59B0022A534 /* job_detail_money_paid_by_week_icon@2x.png in Resources */,
 				4F62DE261A2D89A200A0C500 /* job_detail_share_btn_icon_pressed@2x.png in Resources */,
@@ -2988,7 +3018,9 @@
 				4F75C5C11A0CA84F0022A534 /* job_detail_remark_icon@2x.png in Resources */,
 				4F7B1A371A159A14008F0FFE /* registration_added_icon@2x.png in Resources */,
 				9B5F4E4C1A0A5CFE0029726C /* user_center_user_name_back_img@2x.png in Resources */,
+				9BA981901B0AE8A30021E47E /* logo_87@3x.png in Resources */,
 				9B7C017F1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png in Resources */,
+				9BA9818E1B0AE8A30021E47E /* logo_58@2x.png in Resources */,
 				4FBE79021A63D665009BB177 /* chat_recive_nor@2x.png in Resources */,
 				4FBE78FC1A63D64D009BB177 /* chat_send_press_pic@2x.png in Resources */,
 				4F6E02C61A37E463008646E5 /* guide_page_img_3@2x.png in Resources */,

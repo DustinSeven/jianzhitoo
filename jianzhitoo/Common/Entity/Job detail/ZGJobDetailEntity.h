@@ -14,6 +14,7 @@
 @property (nonatomic , strong) NSString *jobName;
 @property (nonatomic , strong) NSString *company;
 @property (nonatomic , assign) double money;
+@property (nonatomic , strong) NSString *payUnit;
 @property (nonatomic , strong) NSString *countType;
 @property (nonatomic , strong) NSString *time;
 @property (nonatomic , strong) NSString *deadline;

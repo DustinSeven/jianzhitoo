@@ -31,6 +31,8 @@
             self.jobName = [dict objectForKey:@"recruitment_title"];
         if(![[dict objectForKey:@"unit"] isKindOfClass:[NSNull class]] && ![[dict objectForKey:@"unit"] isEqualToString:@""])
             self.company = [dict objectForKey:@"unit"];
+        if(![[dict objectForKey:@"payunit"] isKindOfClass:[NSNull class]] && ![[dict objectForKey:@"payunit"] isEqualToString:@""])
+            self.payUnit = [dict objectForKey:@"payunit"];
         if(![[dict objectForKey:@"amount"] isKindOfClass:[NSNull class]])
             self.money = [[dict objectForKey:@"amount"]doubleValue];
         if(![[dict objectForKey:@"count_type"] isKindOfClass:[NSNull class]] && ![[dict objectForKey:@"count_type"] isEqualToString:@""])

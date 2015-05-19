@@ -354,13 +354,13 @@ static ZGUtility *utility;
 
 +(UIImage *)getMoneyType:(NSString *)typeStr
 {
-    if([typeStr isEqualToString:@"end_day"])
+    if([typeStr isEqualToString:@"day"])
         return [UIImage imageNamed:@"job_detail_money_paid_by_day_icon"];
-    if([typeStr isEqualToString:@"end_week"])
+    if([typeStr isEqualToString:@"week"])
         return [UIImage imageNamed:@"job_detail_money_paid_by_week_icon"];
-    if([typeStr isEqualToString:@"end_month"])
+    if([typeStr isEqualToString:@"month"])
         return [UIImage imageNamed:@"job_detail_money_paid_by_month_icon"];
-    if([typeStr isEqualToString:@"end_finish"])
+    if([typeStr isEqualToString:@"finish"])
         return [UIImage imageNamed:@"job_detail_money_paid_by_end_icon"];
     return nil;
 }
