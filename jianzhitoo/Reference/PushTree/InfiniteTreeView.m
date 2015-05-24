@@ -164,7 +164,7 @@
     tableView.hidden = FALSE;
     
     frame.origin.x = 100;
-    frame.size.width = 220;
+    frame.size.width = 500;
     InfiniteTreeTableView *currentTableView = [self tableViewWithLevel:currentLevel];
     if (_animated) {
         [UIView animateWithDuration:0.3 animations:^{
@@ -197,7 +197,7 @@
         InfiniteTreeTableView *secondLastTableView = [self tableViewWithLevel:currentLevel - 1];
         CGRect secondFrame = secondLastTableView.frame;
         secondFrame.origin.x = 100;
-        secondFrame.size.width = 220;
+        secondFrame.size.width = 500;
         [UIView animateWithDuration:0.3 animations:^{
             _lineView.left = 320;
             lastTableView.left = 320;

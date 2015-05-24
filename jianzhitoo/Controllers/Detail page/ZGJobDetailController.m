@@ -195,6 +195,10 @@
                 if(jobDetailEntity.sex == 2)
                     sex = @"女";
             }
+            else
+            {
+                sex = @"男女不限";
+            }
             if(jobDetailEntity.remaining)
                 remaining = jobDetailEntity.remaining;
             
@@ -204,6 +208,8 @@
             NSString *health = @"";
             if(jobDetailEntity.height)
                 height = [NSString stringWithFormat:@"%0.0fcm",jobDetailEntity.height];
+            else
+                height = @"不限制";
             if(jobDetailEntity.health)
             {
                 if(jobDetailEntity.health == 0)
@@ -211,6 +217,8 @@
                 else
                     health = @"需要";
             }
+            else
+                health = @"不需要";
             heightAndHealth = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"身高：%@\n健康证：%@",height,health]];
             [heightAndHealth addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [heightAndHealth.string length])];
             NSString *jobContent = @"";
@@ -225,6 +233,10 @@
                     interview = @"不需要面试";
                 else
                     interview = @"需要面试";
+            }
+            else
+            {
+                interview = @"不需要面试";
             }
             if(jobDetailEntity.interviewAddr)
                 interviewAddr = jobDetailEntity.interviewAddr;

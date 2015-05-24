@@ -97,12 +97,6 @@
 		4F58680E1A1C2312007B7AD0 /* ZGMyRegistrationProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58680D1A1C2312007B7AD0 /* ZGMyRegistrationProcess.m */; };
 		4F5868221A1C6B0E007B7AD0 /* ZGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5868211A1C6B0E007B7AD0 /* ZGActivityIndicator.m */; };
 		4F5E97D91A23425D005CE836 /* ZGChangePwdProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E97D81A23425D005CE836 /* ZGChangePwdProcess.m */; };
-		4F5F8DE41A197E8B00864274 /* InfiniteTreeBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F8DDA1A197E8B00864274 /* InfiniteTreeBaseCell.m */; };
-		4F5F8DE51A197E8B00864274 /* InfiniteTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F8DDC1A197E8B00864274 /* InfiniteTreeTableView.m */; };
-		4F5F8DE61A197E8B00864274 /* InfiniteTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F8DDE1A197E8B00864274 /* InfiniteTreeView.m */; };
-		4F5F8DE71A197E8B00864274 /* InfiniteTreeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5F8DDF1A197E8B00864274 /* InfiniteTreeView.xib */; };
-		4F5F8DE81A197E8B00864274 /* ITTXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F8DE11A197E8B00864274 /* ITTXibView.m */; };
-		4F5F8DE91A197E8B00864274 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F8DE31A197E8B00864274 /* UIView+ITTAdditions.m */; };
 		4F5F8DED1A1985CF00864274 /* ZGChangeInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F8DEC1A1985CF00864274 /* ZGChangeInfoCell.m */; };
 		4F6118141A52974E007D6E40 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61180C1A52974E007D6E40 /* MMDrawerBarButtonItem.m */; };
 		4F6118151A52974E007D6E40 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F61180F1A52974E007D6E40 /* MMDrawerController.m */; };
@@ -435,6 +429,12 @@
 		9B7C017B1A0A32410095E6B8 /* user_center_my_money_detail_btn_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C01791A0A32410095E6B8 /* user_center_my_money_detail_btn_pressed@2x.png */; };
 		9B7C017E1A0A33150095E6B8 /* user_center_my_advice_btn_icon_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C017C1A0A33150095E6B8 /* user_center_my_advice_btn_icon_normal@2x.png */; };
 		9B7C017F1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C017D1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png */; };
+		9B94D8CF1B0C66A000EE3696 /* InfiniteTreeBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B94D8C51B0C66A000EE3696 /* InfiniteTreeBaseCell.m */; };
+		9B94D8D01B0C66A000EE3696 /* InfiniteTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B94D8C71B0C66A000EE3696 /* InfiniteTreeTableView.m */; };
+		9B94D8D11B0C66A000EE3696 /* InfiniteTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B94D8C91B0C66A000EE3696 /* InfiniteTreeView.m */; };
+		9B94D8D21B0C66A000EE3696 /* InfiniteTreeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B94D8CA1B0C66A000EE3696 /* InfiniteTreeView.xib */; };
+		9B94D8D31B0C66A000EE3696 /* ITTXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B94D8CC1B0C66A000EE3696 /* ITTXibView.m */; };
+		9B94D8D41B0C66A000EE3696 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B94D8CE1B0C66A000EE3696 /* UIView+ITTAdditions.m */; };
 		9BA9818C1B0AE8A30021E47E /* logo_120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981811B0AE8A30021E47E /* logo_120@2x.png */; };
 		9BA9818D1B0AE8A30021E47E /* logo_180@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981821B0AE8A30021E47E /* logo_180@3x.png */; };
 		9BA9818E1B0AE8A30021E47E /* logo_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA981831B0AE8A30021E47E /* logo_58@2x.png */; };
@@ -625,17 +625,6 @@
 		4F5868211A1C6B0E007B7AD0 /* ZGActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGActivityIndicator.m; sourceTree = "<group>"; };
 		4F5E97D71A23425D005CE836 /* ZGChangePwdProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGChangePwdProcess.h; sourceTree = "<group>"; };
 		4F5E97D81A23425D005CE836 /* ZGChangePwdProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGChangePwdProcess.m; sourceTree = "<group>"; };
-		4F5F8DD91A197E8B00864274 /* InfiniteTreeBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteTreeBaseCell.h; sourceTree = "<group>"; };
-		4F5F8DDA1A197E8B00864274 /* InfiniteTreeBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteTreeBaseCell.m; sourceTree = "<group>"; };
-		4F5F8DDB1A197E8B00864274 /* InfiniteTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteTreeTableView.h; sourceTree = "<group>"; };
-		4F5F8DDC1A197E8B00864274 /* InfiniteTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteTreeTableView.m; sourceTree = "<group>"; };
-		4F5F8DDD1A197E8B00864274 /* InfiniteTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteTreeView.h; sourceTree = "<group>"; };
-		4F5F8DDE1A197E8B00864274 /* InfiniteTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteTreeView.m; sourceTree = "<group>"; };
-		4F5F8DDF1A197E8B00864274 /* InfiniteTreeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfiniteTreeView.xib; sourceTree = "<group>"; };
-		4F5F8DE01A197E8B00864274 /* ITTXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTXibView.h; sourceTree = "<group>"; };
-		4F5F8DE11A197E8B00864274 /* ITTXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibView.m; sourceTree = "<group>"; };
-		4F5F8DE21A197E8B00864274 /* UIView+ITTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ITTAdditions.h"; sourceTree = "<group>"; };
-		4F5F8DE31A197E8B00864274 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
 		4F5F8DEB1A1985CF00864274 /* ZGChangeInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGChangeInfoCell.h; sourceTree = "<group>"; };
 		4F5F8DEC1A1985CF00864274 /* ZGChangeInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGChangeInfoCell.m; sourceTree = "<group>"; };
 		4F61180B1A52974E007D6E40 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
@@ -1217,6 +1206,17 @@
 		9B7C01791A0A32410095E6B8 /* user_center_my_money_detail_btn_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_my_money_detail_btn_pressed@2x.png"; sourceTree = "<group>"; };
 		9B7C017C1A0A33150095E6B8 /* user_center_my_advice_btn_icon_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_my_advice_btn_icon_normal@2x.png"; sourceTree = "<group>"; };
 		9B7C017D1A0A33150095E6B8 /* user_center_my_advice_btn_icon_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_my_advice_btn_icon_pressed@2x.png"; sourceTree = "<group>"; };
+		9B94D8C41B0C66A000EE3696 /* InfiniteTreeBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteTreeBaseCell.h; sourceTree = "<group>"; };
+		9B94D8C51B0C66A000EE3696 /* InfiniteTreeBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteTreeBaseCell.m; sourceTree = "<group>"; };
+		9B94D8C61B0C66A000EE3696 /* InfiniteTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteTreeTableView.h; sourceTree = "<group>"; };
+		9B94D8C71B0C66A000EE3696 /* InfiniteTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteTreeTableView.m; sourceTree = "<group>"; };
+		9B94D8C81B0C66A000EE3696 /* InfiniteTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteTreeView.h; sourceTree = "<group>"; };
+		9B94D8C91B0C66A000EE3696 /* InfiniteTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteTreeView.m; sourceTree = "<group>"; };
+		9B94D8CA1B0C66A000EE3696 /* InfiniteTreeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfiniteTreeView.xib; sourceTree = "<group>"; };
+		9B94D8CB1B0C66A000EE3696 /* ITTXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTXibView.h; sourceTree = "<group>"; };
+		9B94D8CC1B0C66A000EE3696 /* ITTXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibView.m; sourceTree = "<group>"; };
+		9B94D8CD1B0C66A000EE3696 /* UIView+ITTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ITTAdditions.h"; sourceTree = "<group>"; };
+		9B94D8CE1B0C66A000EE3696 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
 		9BA981811B0AE8A30021E47E /* logo_120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_120@2x.png"; sourceTree = "<group>"; };
 		9BA981821B0AE8A30021E47E /* logo_180@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_180@3x.png"; sourceTree = "<group>"; };
 		9BA981831B0AE8A30021E47E /* logo_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_58@2x.png"; sourceTree = "<group>"; };
@@ -1516,24 +1516,6 @@
 				4F5606DE1A5FC1E000BCA141 /* ZGContactEntity.m */,
 			);
 			path = Social;
-			sourceTree = "<group>";
-		};
-		4F5F8DD81A197E8B00864274 /* PushTree */ = {
-			isa = PBXGroup;
-			children = (
-				4F5F8DD91A197E8B00864274 /* InfiniteTreeBaseCell.h */,
-				4F5F8DDA1A197E8B00864274 /* InfiniteTreeBaseCell.m */,
-				4F5F8DDB1A197E8B00864274 /* InfiniteTreeTableView.h */,
-				4F5F8DDC1A197E8B00864274 /* InfiniteTreeTableView.m */,
-				4F5F8DDD1A197E8B00864274 /* InfiniteTreeView.h */,
-				4F5F8DDE1A197E8B00864274 /* InfiniteTreeView.m */,
-				4F5F8DDF1A197E8B00864274 /* InfiniteTreeView.xib */,
-				4F5F8DE01A197E8B00864274 /* ITTXibView.h */,
-				4F5F8DE11A197E8B00864274 /* ITTXibView.m */,
-				4F5F8DE21A197E8B00864274 /* UIView+ITTAdditions.h */,
-				4F5F8DE31A197E8B00864274 /* UIView+ITTAdditions.m */,
-			);
-			path = PushTree;
 			sourceTree = "<group>";
 		};
 		4F61180A1A52974E007D6E40 /* MMDrawerController */ = {
@@ -2675,6 +2657,7 @@
 		9B6D1E8A1A0864F000BCE590 /* Reference */ = {
 			isa = PBXGroup;
 			children = (
+				9B94D8C31B0C66A000EE3696 /* PushTree */,
 				4FE1EDE81A651E2B00C771BE /* ZBarSDK */,
 				4FCE13BD1A5BE7EA00D04045 /* SWTableviewCell */,
 				4F918E411A5A74C300F57AFD /* LibBPush */,
@@ -2683,7 +2666,6 @@
 				4F49B5461A31C01F005D3683 /* WeiXinSDK */,
 				4F46D5981A286B2600E9AC11 /* FMDB */,
 				4F6391771A1F32DF000625A8 /* SDWebImage */,
-				4F5F8DD81A197E8B00864274 /* PushTree */,
 				4FA1B1491A14FF5D00CF1595 /* GMGridView */,
 				4F133DB11A0E82B100CA9869 /* MJRefresh */,
 				9B7C01351A09BFD70095E6B8 /* MBProgressHUD */,
@@ -2787,6 +2769,24 @@
 				9B7C015B1A0A1AAB0095E6B8 /* user_center_vertical_line@2x.png */,
 			);
 			path = "User center";
+			sourceTree = "<group>";
+		};
+		9B94D8C31B0C66A000EE3696 /* PushTree */ = {
+			isa = PBXGroup;
+			children = (
+				9B94D8C41B0C66A000EE3696 /* InfiniteTreeBaseCell.h */,
+				9B94D8C51B0C66A000EE3696 /* InfiniteTreeBaseCell.m */,
+				9B94D8C61B0C66A000EE3696 /* InfiniteTreeTableView.h */,
+				9B94D8C71B0C66A000EE3696 /* InfiniteTreeTableView.m */,
+				9B94D8C81B0C66A000EE3696 /* InfiniteTreeView.h */,
+				9B94D8C91B0C66A000EE3696 /* InfiniteTreeView.m */,
+				9B94D8CA1B0C66A000EE3696 /* InfiniteTreeView.xib */,
+				9B94D8CB1B0C66A000EE3696 /* ITTXibView.h */,
+				9B94D8CC1B0C66A000EE3696 /* ITTXibView.m */,
+				9B94D8CD1B0C66A000EE3696 /* UIView+ITTAdditions.h */,
+				9B94D8CE1B0C66A000EE3696 /* UIView+ITTAdditions.m */,
+			);
+			path = PushTree;
 			sourceTree = "<group>";
 		};
 		9BA9817A1B0AE8A30021E47E /* logo */ = {
@@ -2954,7 +2954,6 @@
 				4F62DE271A2D89A200A0C500 /* job_detail_share_btn_icon_normal@2x.png in Resources */,
 				9B7C01721A0A2DC10095E6B8 /* user_center_my_change_pwd_btn_icon_normal@2x.png in Resources */,
 				9B6D1E471A08645B00BCE590 /* Images.xcassets in Resources */,
-				4F5F8DE71A197E8B00864274 /* InfiniteTreeView.xib in Resources */,
 				4F4218861A10B92C005BDE18 /* registration_detail_time_icon@2x.png in Resources */,
 				4F7B1A361A159A14008F0FFE /* registration_cancel_icon@2x.png in Resources */,
 				4F7B1A4A1A15AA4A008F0FFE /* registration_share_btn_icon_normal@2x.png in Resources */,
@@ -3014,6 +3013,7 @@
 				4F75C5B71A0CA59B0022A534 /* job_detail_money_paid_by_week_icon@2x.png in Resources */,
 				4F62DE261A2D89A200A0C500 /* job_detail_share_btn_icon_pressed@2x.png in Resources */,
 				4FA1B0E51A145CC500CF1595 /* my_registration_btn_pressed@2x.png in Resources */,
+				9B94D8D21B0C66A000EE3696 /* InfiniteTreeView.xib in Resources */,
 				4F7B1A381A159A14008F0FFE /* registration_add_icon@2x.png in Resources */,
 				4F75C5C11A0CA84F0022A534 /* job_detail_remark_icon@2x.png in Resources */,
 				4F7B1A371A159A14008F0FFE /* registration_added_icon@2x.png in Resources */,
@@ -3096,7 +3096,6 @@
 				4F4751771A3046CD0048AB31 /* ZGMoneyDetailProcess.m in Sources */,
 				4F133DC51A0E82B100CA9869 /* MJRefreshFooterView.m in Sources */,
 				4F4218781A10A99E005BDE18 /* ZGChangePasswordController.m in Sources */,
-				4F5F8DE51A197E8B00864274 /* InfiniteTreeTableView.m in Sources */,
 				9B6D1EB71A0864F000BCE590 /* ZGGuideInterfaceController.m in Sources */,
 				4FB1EEDC1A0E697700CE6E07 /* ZGMyRegistrationViewBase.m in Sources */,
 				4F65A5DD1A3AF189007678E9 /* ZGSchoolmateViewIphone.m in Sources */,
@@ -3106,6 +3105,7 @@
 				9B6D1E3F1A08645B00BCE590 /* AppDelegate.m in Sources */,
 				4F4218911A10C5F7005BDE18 /* ZGUserInfoViewBase.m in Sources */,
 				4F4751711A30421D0048AB31 /* ZGMoneyDetailEntity.m in Sources */,
+				9B94D8CF1B0C66A000EE3696 /* InfiniteTreeBaseCell.m in Sources */,
 				4FCE13CB1A5BE80D00D04045 /* SWCellScrollView.m in Sources */,
 				4F46D5A91A286B2600E9AC11 /* FMDatabasePool.m in Sources */,
 				4FBE78F41A63700C009BB177 /* ZGSessionDetailViewIphone.m in Sources */,
@@ -3147,7 +3147,6 @@
 				9B61F95A1A0B2B9B00D2BEBE /* ZGJobDetailController.m in Sources */,
 				4F6391A31A1F32DF000625A8 /* UIImage+GIF.m in Sources */,
 				4FCE13A61A5BC97E00D04045 /* ZGSocialContactViewIphone.m in Sources */,
-				4F5F8DE91A197E8B00864274 /* UIView+ITTAdditions.m in Sources */,
 				4F65A5D71A3AF142007678E9 /* ZGSchoolmateController.m in Sources */,
 				4F62DE041A2D883400A0C500 /* ZGMyRegistrationEntity.m in Sources */,
 				4F4F1E881A0F4C25004A2F6D /* ZGSettingController.m in Sources */,
@@ -3155,7 +3154,6 @@
 				4FA1B0FA1A14CC1A00CF1595 /* ZGUserInfoChangeSchoolCell.m in Sources */,
 				9B6D1EC01A0864F000BCE590 /* ZGMainPageController.m in Sources */,
 				4F918E551A5A74C300F57AFD /* GzipCompressor.m in Sources */,
-				4F5F8DE61A197E8B00864274 /* InfiniteTreeView.m in Sources */,
 				4F2F66791A3A9549006DC278 /* ZGAboutUsController.m in Sources */,
 				4FF131F61A3C3276002EA59A /* AFHTTPRequestOperation.m in Sources */,
 				4F713F7F1A11DC530021F168 /* ZGWithdrawalViewIphone.m in Sources */,
@@ -3172,9 +3170,9 @@
 				4F62DDF51A2D883400A0C500 /* ZGAdviceParam.m in Sources */,
 				4F7B1A4E1A15AF93008F0FFE /* ZGAlertViewBase.m in Sources */,
 				4F7B1A571A15E6FB008F0FFE /* ZGRegisterProcess.m in Sources */,
+				9B94D8D01B0C66A000EE3696 /* InfiniteTreeTableView.m in Sources */,
 				4F62DE051A2D883400A0C500 /* ZGMyRegistrationParam.m in Sources */,
 				4F7BC5C81A25E18E00E72F2D /* ZGRegistrationProcess.m in Sources */,
-				4F5F8DE41A197E8B00864274 /* InfiniteTreeBaseCell.m in Sources */,
 				4F62DDF71A2D883400A0C500 /* ZGPasswordParam.m in Sources */,
 				4FDAF8861A123F2F00B8A623 /* ZGWithdrawalDetailCell.m in Sources */,
 				4F133DC71A0E82B100CA9869 /* UIScrollView+MJExtension.m in Sources */,
@@ -3216,7 +3214,6 @@
 				4F6240C21A28110500C96CAE /* ZGBankViewIphone.m in Sources */,
 				4F791A0E1A18F45800118C2F /* ZGChangeUserInfoProcess.m in Sources */,
 				4FA1B0EC1A1474D100CF1595 /* ZGUserInfoChangeViewBase.m in Sources */,
-				4F5F8DE81A197E8B00864274 /* ITTXibView.m in Sources */,
 				4FCE13A01A5BC69800D04045 /* ZGSocialContactController.m in Sources */,
 				4F5F8DED1A1985CF00864274 /* ZGChangeInfoCell.m in Sources */,
 				4FA1B0EF1A1474F700CF1595 /* ZGUserInfoChangeViewIphone.m in Sources */,
@@ -3226,6 +3223,7 @@
 				4F918E531A5A74C300F57AFD /* Base64.m in Sources */,
 				4FF132001A3C3276002EA59A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				4F6E000D1A29FF6500DA4E76 /* ZGProvacySettingProcess.m in Sources */,
+				9B94D8D11B0C66A000EE3696 /* InfiniteTreeView.m in Sources */,
 				4FF132011A3C3276002EA59A /* UIAlertView+AFNetworking.m in Sources */,
 				4F62DDF81A2D883400A0C500 /* ZGJobDetailEntity.m in Sources */,
 				4FA1B0E91A1474AF00CF1595 /* ZGUserInfoChangeController.m in Sources */,
@@ -3256,6 +3254,7 @@
 				4F7BC5B91A2561BF00E72F2D /* ZGFailImgAlertViewIphone.m in Sources */,
 				9B6D1EB31A0864F000BCE590 /* ZGBaseController.m in Sources */,
 				4FF131FF1A3C3276002EA59A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9B94D8D41B0C66A000EE3696 /* UIView+ITTAdditions.m in Sources */,
 				4F918E581A5A74C300F57AFD /* Reachability.m in Sources */,
 				9BB8E9FE1A08CA1000470FF7 /* ZGJobsListCell.m in Sources */,
 				4F10FA6E1A2EF732001A35BD /* ZGSearchRecordEntity.m in Sources */,
@@ -3299,6 +3298,7 @@
 				4F6118151A52974E007D6E40 /* MMDrawerController.m in Sources */,
 				4F65A5CA1A3ABAF2007678E9 /* ZGStatementOfLawViewBase.m in Sources */,
 				4F62DE081A2D883400A0C500 /* ZGJobDateShortParam.m in Sources */,
+				9B94D8D31B0C66A000EE3696 /* ITTXibView.m in Sources */,
 				4F133DC61A0E82B100CA9869 /* MJRefreshHeaderView.m in Sources */,
 				4F65A5CD1A3ABB07007678E9 /* ZGStatementOfLawViewIphone.m in Sources */,
 				4F01FC061A5938C30048BE19 /* ZGJobManagerViewBase.m in Sources */,
