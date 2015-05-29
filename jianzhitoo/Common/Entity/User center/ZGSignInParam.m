@@ -35,9 +35,9 @@
     if(dict)
     {
         [dict setObject:self.mobile forKey:@"mobile"];
-        [dict setObject:[ZGUtility sha1Algorithm:self.pwd]forKey:@"pwd"];
-        [dict setObject:[NSNumber numberWithLong:self.jobId] forKey:@"parttimeid"];
-        [dict setObject:self.checkCode forKey:@"checkkey"];
+        [dict setObject:self.pwd forKey:@"pwd"];
+        [dict setObject:self.jobId forKey:@"jobid"];
+        [dict setObject:self.userId forKey:@"userid"];
     }
     return dict;
 }

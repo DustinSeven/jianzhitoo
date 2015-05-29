@@ -123,7 +123,7 @@
         UIImage *icon = [UIImage imageNamed:@"left_menu_sign_in_icon"];
         cell.leftImg.image = icon;
         cell.leftImg.frame = CGRectMake(CGRectGetMinX(cell.contentLab.frame) - 10 - icon.size.width , (LeftMenuTableViewRowHeight - icon.size.height) / 2, icon.size.width, icon.size.height);
-        cell.contentLab.text = @"签到/签退";
+        cell.contentLab.text = @"工作签到";
     }
     if(indexPath.row == 4)
     {

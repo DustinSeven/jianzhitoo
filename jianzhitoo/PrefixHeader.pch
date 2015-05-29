@@ -46,7 +46,7 @@
 
 
 //#define APP_BASE_URL @"http://120.25.211.31:8080"
-#define APP_BASE_URL @"http://localhost:8080"
+#define APP_BASE_URL @"http://172.22.52.242:8080"
 
 #define LOGIN_URL @"/parttimejobAPI/login"
 #define UPDATE_APP_INFO_URL @"/api/jztv1/GetAppUsers"
@@ -89,7 +89,7 @@
 #define GET_DEALING_MONEY_URL @"/api/jztv1/GetFreezeMoney"
 #define GET_ENABLE_MONEY_URL @"/api/jztv1/GetEnabledMoney"
 
-#define SIGN_IN_URL @"/api/jztv1/CheckInPartJob"
+#define SIGN_IN_URL @"/parttimejobAPI/signin"
 
 #define GET_MONEY_DETAIL_URL @"/api/jztv1/GetCapitalList"
 
@@ -107,5 +107,7 @@
 #define TMP_USER_IMG_NAME @"tmp_user_img"
 
 #define MAIN_PAGE_JOB_PAGE_SIZE 10
+
+#define DESKEY @"514345744E41596C4E41496C"
 
 #endif

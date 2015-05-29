@@ -368,6 +368,7 @@
 		4FF132061A3C3276002EA59A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF131F51A3C3276002EA59A /* UIWebView+AFNetworking.m */; };
 		4FF132071A3C330D002EA59A /* ZGDropListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6A3921A1AFEF400370298 /* ZGDropListCell.m */; };
 		4FF6A39A1A1B02E000370298 /* ZGMainPageProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6A3991A1B02E000370298 /* ZGMainPageProcess.m */; };
+		9B3FF0C71B18C52000AF002B /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FF0C51B18C52000AF002B /* GTMBase64.m */; };
 		9B40216C1ADC091900DEE852 /* user_center_bg_640x1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B40216B1ADC091900DEE852 /* user_center_bg_640x1136@2x.png */; };
 		9B5F4E4C1A0A5CFE0029726C /* user_center_user_name_back_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F4E4B1A0A5CFE0029726C /* user_center_user_name_back_img@2x.png */; };
 		9B5F4E511A0A6BB50029726C /* user_center_user_gender_icon_female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5F4E4F1A0A6BB50029726C /* user_center_user_gender_icon_female@2x.png */; };
@@ -1116,6 +1117,9 @@
 		4FF6A3921A1AFEF400370298 /* ZGDropListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGDropListCell.m; sourceTree = "<group>"; };
 		4FF6A3981A1B02E000370298 /* ZGMainPageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGMainPageProcess.h; sourceTree = "<group>"; };
 		4FF6A3991A1B02E000370298 /* ZGMainPageProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGMainPageProcess.m; sourceTree = "<group>"; };
+		9B3FF0C41B18C52000AF002B /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		9B3FF0C51B18C52000AF002B /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		9B3FF0C61B18C52000AF002B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		9B40216B1ADC091900DEE852 /* user_center_bg_640x1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_bg_640x1136@2x.png"; sourceTree = "<group>"; };
 		9B5F4E4B1A0A5CFE0029726C /* user_center_user_name_back_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_user_name_back_img@2x.png"; sourceTree = "<group>"; };
 		9B5F4E4F1A0A6BB50029726C /* user_center_user_gender_icon_female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_center_user_gender_icon_female@2x.png"; sourceTree = "<group>"; };
@@ -2328,6 +2332,16 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		9B3FF0C31B18C52000AF002B /* gtmbase64 */ = {
+			isa = PBXGroup;
+			children = (
+				9B3FF0C41B18C52000AF002B /* GTMBase64.h */,
+				9B3FF0C51B18C52000AF002B /* GTMBase64.m */,
+				9B3FF0C61B18C52000AF002B /* GTMDefines.h */,
+			);
+			path = gtmbase64;
+			sourceTree = "<group>";
+		};
 		9B5F4E531A0A86370029726C /* Main page */ = {
 			isa = PBXGroup;
 			children = (
@@ -2657,6 +2671,7 @@
 		9B6D1E8A1A0864F000BCE590 /* Reference */ = {
 			isa = PBXGroup;
 			children = (
+				9B3FF0C31B18C52000AF002B /* gtmbase64 */,
 				9B94D8C31B0C66A000EE3696 /* PushTree */,
 				4FE1EDE81A651E2B00C771BE /* ZBarSDK */,
 				4FCE13BD1A5BE7EA00D04045 /* SWTableviewCell */,
@@ -3254,6 +3269,7 @@
 				4F7BC5B91A2561BF00E72F2D /* ZGFailImgAlertViewIphone.m in Sources */,
 				9B6D1EB31A0864F000BCE590 /* ZGBaseController.m in Sources */,
 				4FF131FF1A3C3276002EA59A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9B3FF0C71B18C52000AF002B /* GTMBase64.m in Sources */,
 				9B94D8D41B0C66A000EE3696 /* UIView+ITTAdditions.m in Sources */,
 				4F918E581A5A74C300F57AFD /* Reachability.m in Sources */,
 				9BB8E9FE1A08CA1000470FF7 /* ZGJobsListCell.m in Sources */,

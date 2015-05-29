@@ -13,6 +13,7 @@
 #import "ZGBrowseRecordController.h"
 #import "ZGZbarView.h"
 #import "ZGUserCenterProcess.h"
+#import "ZGSignInParam.h"
 
 @interface ZGJobManagerController ()<UITableViewDataSource,UITableViewDelegate,ZBarReaderDelegate,UIImagePickerControllerDelegate>
 {
@@ -121,23 +122,20 @@
             result = symbol.data;
         }
         
-        ZGSignInParam *param = [ZGUtility signInParamWithStr:result];
-        if(param)
-        {
-            param.mobile = userInfoEntity.mobile;
-            param.pwd = userInfoEntity.password;
-            [self signIn:param];
-        }
-        else
-        {
-            [ZGUtility showAlertWithText:@"请扫描正确的二维码！" parentView:nil];
-        }
+        ZGSignInParam *param = [[ZGSignInParam alloc]init];
+        param.mobile = userInfoEntity.mobile;
+        param.pwd = userInfoEntity.password;
+        NSString *jobId = [ZGUtility TripleDES:result encryptOrDecrypt:kCCDecrypt encryptOrDecryptKey:DESKEY];
+        param.jobId = jobId;
+        param.userId = [NSString stringWithFormat:@"%ld",userInfoEntity.identity];
+        [self signIn:param];
+
     }];
 }
 
 - (void) signIn:(ZGSignInParam *)param
 {
-    [[ZGUserCenterProcess shareInstance]signInWithParam:[param getDictionary] parentView:nil text:@"签到中" success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[ZGUserCenterProcess shareInstance]signInWithParam:[param getDictionary] parentView:nil text:@"签到中..." success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         if([[responseObject objectForKey:@"code"]intValue] == 200)
         {

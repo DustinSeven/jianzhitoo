@@ -12,7 +12,7 @@
 
 @property (nonatomic , strong) NSString *mobile;
 @property (nonatomic , strong) NSString *pwd;
-@property (nonatomic , assign) long int jobId;
-@property (nonatomic , strong) NSString *checkCode;
+@property (nonatomic , strong) NSString *jobId;
+@property (nonatomic , strong) NSString *userId;
 
 @end

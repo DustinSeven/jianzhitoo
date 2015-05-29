@@ -13,9 +13,11 @@
 #import "ZGCommonAlertViewIphone.h"
 #import "ZGSchoolmateAlertViewIphone.h"
 #import "ZGFailImgAlertViewIphone.h"
-#import "ZGSignInParam.h"
 #import "ZGUpdateAlertView.h"
 #import "ZGUpdateInfoEntity.h"
+#import <CommonCrypto/CommonDigest.h>
+#import <CommonCrypto/CommonCryptor.h>
+#import <Security/Security.h>
 
 typedef enum
 {
@@ -79,8 +81,6 @@ typedef enum
 
 +(NSString *)stringWithMoneyUnite:(NSString *)str;
 
-+(ZGSignInParam *)signInParamWithStr:(NSString *)str;
-
 +(BOOL)isBeforePressent:(int)date;
 
 +(BOOL)isInformationComplete;
@@ -88,5 +88,7 @@ typedef enum
 +(NSArray *)customBarButtonItemWithNormalImg:(UIImage *)normalImg pressedImg:(UIImage *)pressedImg text:(NSString *)text target:(id)target action:(SEL)action spacing:(float)spacing;
 
 + (UIImage *)resizeImage:(NSString *)imageName;
+
++(NSString *)TripleDES:(NSString *)plainText encryptOrDecrypt:(CCOperation)encryptOrDecrypt encryptOrDecryptKey:(NSString *)encryptOrDecryptKey;
 
 @end

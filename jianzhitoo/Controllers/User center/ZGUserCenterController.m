@@ -341,17 +341,12 @@
             result = symbol.data;
         }
         
-        ZGSignInParam *param = [ZGUtility signInParamWithStr:result];
-        if(param)
-        {
-            param.mobile = userInfoEntity.mobile;
-            param.pwd = userInfoEntity.password;
-            [self signIn:param];
-        }
-        else
-        {
-            [ZGUtility showAlertWithText:@"请扫描正确的二维码！" parentView:nil];
-        }
+        ZGSignInParam *param = [[ZGSignInParam alloc]init];
+        param.mobile = userInfoEntity.mobile;
+        param.pwd = userInfoEntity.password;
+        param.userId = [NSString stringWithFormat:@"%ld",userInfoEntity.identity];
+        [self signIn:param];
+
     }];
 }
 

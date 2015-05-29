@@ -103,7 +103,7 @@
     
     upBack.frame = CGRectMake(0, 0, SCREEN_WIDTH, (SCREEN_HEIGHT - 280) / 2 - (SCREEN_WIDTH - 280) / 2);
     downBack.frame = CGRectMake(0, (SCREEN_HEIGHT - 280) / 2 + 288 + (SCREEN_WIDTH - 280) / 2  , SCREEN_WIDTH, SCREEN_HEIGHT - (SCREEN_HEIGHT - 280) / 2 + (SCREEN_WIDTH - 280) / 2);
-    label.frame = CGRectMake(20, 20, 280, 40);
+    label.frame = CGRectMake(0, 50, SCREEN_WIDTH, 40);
     
     self.backBtn.frame = CGRectMake((SCREEN_WIDTH - 50) / 2, (SCREEN_HEIGHT - 280) / 2 + 288 + (SCREEN_WIDTH - 280) / 2 + 20, 50, 50);
 }
